@@ -1,7 +1,7 @@
 ---
 - name: Deploy Flask App
   hosts: all
-  become: yes
+  become: n1
 
   tasks:
     - name: Add the default Ubuntu repository
