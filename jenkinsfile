@@ -5,7 +5,7 @@ pipeline {
       steps {
         script {
           ansiblePlaybook(
-            playbook: 'midterm.yml',
+            playbook: 'midterm4.yml',
             inventory: 'hosts.ini'
           )
         }
