@@ -5,7 +5,7 @@ pipeline {
       steps {
         script {
           ansiblePlaybook(
-            playbook: 'flask.yaml',
+            playbook: 'midterm.yml',
             inventory: 'hosts.ini'
           )
         }
